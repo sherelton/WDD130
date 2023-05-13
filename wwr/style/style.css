@@ -1,0 +1,35 @@
+#background {
+    height: 725px;
+    text-decoration-color: #fafbf8;
+}
+
+body {
+        background-color: #fcfbfb;
+        
+}
+header {
+    background-color:rgba(20,30,13, .7)
+}
+nav a:hover {
+    background-color: black;
+}
+
+
+.icon {
+    width: 80px;
+    text-align: center;
+}
+
+nav a {
+    text-align: center;
+    color: #dcdcb7;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
