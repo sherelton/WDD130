@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+#background{
+    height: 725;
+    text-decoration-color: rgb(6, 135, 247);
+    background-color: bisque;
+}
+
+body {
+    background-color: #fcfbfb;
+          
+}
+header {
+background-color:rgb(160, 170, 225)
+
+}
+nav a:hover {
+background-color: aquamarine;
+}

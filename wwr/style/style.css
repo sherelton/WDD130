@@ -1,34 +1,108 @@
-#background {
-    height: 725px;
-    text-decoration-color: #fafbf8;
-}
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
 
 body {
-        background-color: #fcfbfb;
-        
+    background-color: rgb(253, 252, 250);
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
 }
 header {
-    background-color:rgba(20,30,13, .7)
+    background-color: rgba(56, 57, 56, 0.676)
 }
-nav a:hover {
-    background-color: black;
-}
-
-
-.icon {
+.logo {
     width: 80px;
 }
 
+h2 {
+    margin: 0;
+}
+
 nav a {
+    text-decoration: none;
+    color: #fcfbfb;
     text-align: center;
-    color: #dcdcb7;
+    padding: 35px;
+}
+nav a:hover {
+    background-color: aquamarine;
+    color:#3e3e3e;
+}
+
+.home-title {
+    font-family: 'rock salt', 'bradley hand', sans-serif;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+.icon {
+    width: 80px;
+
+}
+
+main section  {
+    text-align: center;;
+}
+
+.book,
+.join {
+    background-color: #d9c2a3;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px, 30px;
+    margin-top: 50;
+    border-radius: 5px;
+}
+
+.card-img {
+    border: 10 solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+#background {
+    height: 725px;
+    background-color: #d6d68f;
+}
+
+
+
+.msg {
+    background-color: rgb(99, 164, 217);
+    line-height: 1.5em;
+}
+
+
+
+footer {
+    background-color: rgb(10, 55, 91);
+    color: white;
+    padding: 25px 50px
+}
+
+footer a {
+    color: #fff;
     text-decoration: none;
 }
-
-footer p {
-    font-size: 1.2em;
-}
-
 footer p a:hover {
     text-decoration: underline;
 }
