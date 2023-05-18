@@ -14,9 +14,9 @@ body {
     margin: 0 auto;
 }
 header {
-    background-color: rgba(56, 57, 56, 0.676)
+    background-color: rgb(75, 103, 75)
 }
-.logo {
+#logo_link {
     width: 80px;
 }
 
@@ -26,17 +26,17 @@ h2 {
 
 nav a {
     text-decoration: none;
-    color: #fcfbfb;
+    color: white;
     text-align: center;
     padding: 35px;
 }
 nav a:hover {
-    background-color: aquamarine;
+    background-color: rgb(231, 209, 233);
     color:#3e3e3e;
 }
 
 .home-title {
-    font-family: 'rock salt', 'bradley hand', sans-serif;
+    font-family: 'rock salt', 'bradley hand' sans-serif;
     font-size: 2em;
     margin-top: 50px;
 }
@@ -54,7 +54,7 @@ nav a:hover {
 }
 .icon {
     width: 80px;
-
+   
 }
 
 main section  {
@@ -67,36 +67,47 @@ main section  {
     color: black;
     text-decoration: none;
     font-size: 18px;
-    padding: 15px, 30px;
-    margin-top: 50;
-    border-radius: 5px;
+    padding: 25px 50px;
+    margin-top: 25px;
+    border-radius: 10px;
 }
 
 .card-img {
-    border: 10 solid #d9c2a3;
+    border: 10px solid #d9c2a3;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 10px solid #d9c2a3;;
 }
 
 main section img {
     box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 10px solid #d9c2a3;
 }
 #background {
     height: 725px;
-    background-color: #d6d68f;
+    background-color: #d9c2a3;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
 
 .msg {
-    background-color: rgb(99, 164, 217);
+    background-color: rgb(75, 103, 75);
     line-height: 1.5em;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 
 
 footer {
-    background-color: rgb(10, 55, 91);
+    background-color: rgb(75, 103, 75);
     color: white;
     padding: 25px 50px
+    
 }
 
 footer a {
