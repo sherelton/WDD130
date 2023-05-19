@@ -17,7 +17,7 @@ header {
     background-color: rgb(75, 103, 75)
 }
 #logo_link {
-    width: 80px;
+    width: 50px;
 }
 
 h2 {
@@ -97,8 +97,8 @@ main section img {
 .msg {
     background-color: rgb(75, 103, 75);
     line-height: 1.5em;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 
