@@ -29,6 +29,7 @@ nav a {
     color: white;
     text-align: center;
     padding: 35px;
+    margin-top: 100;
 }
 nav a:hover {
     background-color: rgb(231, 209, 233);
