@@ -5,13 +5,13 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #c9ee91;
+  --primary-color: #77c0b0;
   --secondary-color: #396E94;
   --accent1-color: #77c0b0;
-  --accent2-color: w#396E94;
+  --accent2-color: #396E94;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
+  --heading-font: Cambria;
   --paragraph-font: Times;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -25,7 +25,7 @@ Fonts are separated by a | */
   /* paragraph text on a colored background */
   --paragraph-background-color: #396E94;
   --nav-link-color: #396E94;
-  --nav-background-color: #ebcc4f;
+  --nav-background-color: #77c0b0;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
@@ -180,13 +180,13 @@ nav a:hover {
 
 .sm-page2 {
   grid-area: page2;
-  background-color: #D4AC0D;
+  background-color: #77c0b0;
   line-height: 3em;
 }
 
 .sm-page3 {
   grid-area: page3;
-  background-color: #D4AC0D;
+  background-color: #77c0b0;
   line-height: 3em;
 }
 
