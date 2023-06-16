@@ -33,7 +33,7 @@ nav a {
 
 /* Text tha are in the range of the Logo */
 nav a:hover {
-    color: #166fea;
+    color: #05d4f4;
     text-decoration-line: underline;
 
 }
@@ -101,11 +101,6 @@ nav {
     text-align: center;
 }
 
-.icon {
-    width: 80px;
-
-}
-
 .logo {
     width: 80px;
 
@@ -135,28 +130,45 @@ main section {
 /* all the cards properties */
 
 .card-img {
+    display: inline-flex;
     border: 10px solid #d9c2a3;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
-    
+
 }
 
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
 }
-div{
-    flex: left;
+
+.rivers-card,
+.competitions-card,
+.rafting-card,
+.winners-card {
+    margin: 200px 0;
 }
 
-/* .rivers-card{
-    display:grid;
-    flex: left;
-
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
 }
-.rafting-card{
-    display: grid;
-} */
+
+.competitions-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.rafting-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
+.winners-card {
+    grid-column: 10/15;
+    grid-row: 2/3;
+}
+
 
 /* cards property stop here */
 

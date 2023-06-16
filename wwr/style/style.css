@@ -33,7 +33,7 @@ nav a {
 
 /* Text tha are in the range of the Logo */
 nav a:hover {
-    color: #166fea;
+    color: #f6f609;
     text-decoration-line: underline;
 
 }
@@ -142,6 +142,9 @@ main section {
     opacity: .6;
     transform: scale(1.1);
 }
+/* the two line up are the card image hover  */
+
+/* the lines from here down are the arrangement of the image card images */
 
 .card-img,
 .mountains {
