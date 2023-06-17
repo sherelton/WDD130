@@ -127,7 +127,7 @@ nav {
 
 main section {
     text-align: center;
-    position: center;
+    position: relative;
 
 }
 
@@ -145,7 +145,7 @@ main section {
 /* all the cards properties */
 
 .card-img {
-    display: flexbox;
+    display: flex;
     border: 10px solid #d9c2a3;;
     transition: transform .5s;
     /* box-shadow: 5px 5px 10px #6f7364; */
