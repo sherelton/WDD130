@@ -1,9 +1,9 @@
-@import url('https://fonts.google.com/specimen/Prata');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Source+Sans+Pro&display=swap');
 
 
 body {
     background-color: rgb(250, 247, 247);
-    font-family: Raleway, sans-serif;
+    font-family: EB Garamond, serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -76,11 +76,9 @@ nav {
 
 .home-title {
     color: #d9c2a3;
-    text-shadow: #0f0f0f;
     margin-top: 5px;
     margin-right: 20px;
     text-align: center;
-    font: Old English;
 
 }
 
@@ -137,6 +135,7 @@ main section {
 .bio-img {
 
     box-shadow: 5px 5px 10px #0f0f0f;
+    z-index: 1;
 
 }
 
@@ -154,6 +153,7 @@ main section {
     background-color: rgb(75, 103, 75);
     grid-column: 5/10;
     grid-row: 5/8;
+    padding: 1em;
 
 }
 
